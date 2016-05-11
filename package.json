@@ -1,7 +1,25 @@
 {
   "name": "express-monitor",
   "version": "0.0.0",
-  "private": true,
+  "description": "Monitors logs made in node js applications",
+  "keywords": [
+    "logging"
+  ],
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Ragavan Thiruchittampalam",
+      "email": "sktragu@gmail.com"
+    },
+    {
+      "name": "Ramindu Deshapriya",
+      "email": "rasade88@gmail.com"
+    },
+    {
+      "name": "Pahan Perera",
+      "email": "pahan.madushanka@gmail.com"
+    }
+  ],
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -13,5 +31,6 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "main": "index"
 }
